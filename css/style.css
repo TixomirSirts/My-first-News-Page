@@ -17,10 +17,10 @@ header {
 h1 {
     color: rgb(86, 98, 110);
     background-color: #ffffff88;
-    padding: 1rem 1.5rem;
+    padding: 1rem 3rem;
     border-radius: 2%;
-    font-size: 4rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8rem;
+    font-family: 'Bona Nova', serif;
 }
 
 .news {
@@ -33,6 +33,7 @@ article {
     margin: 0 auto 32px;
     padding: 6px 15px;
     border-bottom: 3px double rgb(128, 128, 128);
+    font-family: 'Bona Nova', serif;
 }
 
 article:nth-child(even) {
@@ -49,7 +50,7 @@ article a:hover {
 }
 
 article h2 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Bona Nova', serif;
     margin-bottom: 5px;
 }
 

@@ -6,7 +6,7 @@
 
 + HTML
 + CSS
-+ Web-fonts (Bona Nova)
++ [Web-fonts (Bona Nova)](https://fonts.google.com/specimen/Bona+Nova?query=bona#standard-styles)
 
 ## Используемые материалы
 
@@ -19,6 +19,7 @@
 ## Лицензии
 
 + [MID](./license.md)
-+ [Unsplash license](https://unsplash.com/license)
++ [Unsplash License](https://unsplash.com/license)
++ [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL)
 
 Автор: ***Тихомир Сирц***, *PHP-17*
