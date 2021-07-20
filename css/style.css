@@ -24,7 +24,7 @@ h1 {
 }
 
 .news {
-    background-color: #00000008;
+    background-color: #0000000f;
     padding: 50px 0 32px;
 }
 
@@ -86,4 +86,3 @@ footer .links > a {
     color: lightslategrey;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
