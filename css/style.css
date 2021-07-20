@@ -4,14 +4,16 @@ body {
 }
 
 header {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
-    height: 600px;
+    height: 768px;
     background-color: antiquewhite;
     background: url('https://unsplash.com/photos/p8gzCnZf39k/download?force=true&w=1920') bottom no-repeat;
     background-size: cover;
     border-bottom: 1px solid black;
+    font-size: 4rem;
+    font-family: 'Bona Nova', serif;
 }
 
 h1 {
@@ -20,24 +22,42 @@ h1 {
     padding: 1rem 3rem;
     border-radius: 2%;
     font-size: 8rem;
-    font-family: 'Bona Nova', serif;
+    margin-bottom: 0;
+}
+
+p.project#project {
+    color: rgb(86, 98, 110);
+    background-color: #ffffff88;
+    padding: 1rem 1rem;
+    border-radius: 2%;
+    font-size: 2rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+p.project#project::first-line {
+    text-decoration: underline;
 }
 
 .news {
     background-color: #0000000f;
     padding: 50px 0 32px;
+    background-image: url('https://unsplash.com/photos/I0wNU5EcGG4/download?force=true&w=1920');
+    background-attachment: fixed;
 }
 
 article {
-    width: 768;
+    width: 768px;
     margin: 0 auto 32px;
     padding: 6px 15px;
+    border: 1px solid rgb(128, 128, 128);
     border-bottom: 3px double rgb(128, 128, 128);
+    background-color: #ffffffe6;
     font-family: 'Bona Nova', serif;
 }
 
 article:nth-child(even) {
-    background-color: white;
+    background-color: rgba(255, 239, 213, 0.93);
 }
 
 article a {
@@ -54,6 +74,20 @@ article h2 {
     margin-bottom: 5px;
 }
 
+article:first-of-type h2::after, article:nth-of-type(2) h2::after {
+    content: ' New';
+    color: blue;
+    font-size: 1.2em;
+    text-transform: uppercase;
+}
+
+article:first-of-type h2:hover, article:nth-of-type(2) h2:hover {
+    color: blue;
+    text-decoration: underline;
+    /* text-transform: uppercase; */
+}
+
+
 .article-meta {
     color: rgb(134, 142, 150);
     margin-bottom: 5px;
@@ -63,7 +97,7 @@ article img {
     width: 100%;
     height: 400px;
     object-fit: cover;
-    border: 5px double black;
+    /* border: 5px double black; */
 }
 
 footer {
