@@ -8,7 +8,7 @@ header {
     align-items: center;
     justify-content: center;
     height: 768px;
-    background-color: antiquewhite;
+    background-color: aliceblue;
     background: url('https://unsplash.com/photos/p8gzCnZf39k/download?force=true&w=1920') bottom no-repeat;
     background-size: cover;
     border-bottom: 1px solid black;
@@ -66,7 +66,8 @@ article a {
 }
 
 article a:hover {
-    color: #03c8f0;
+    color: deepskyblue;
+    text-decoration: underline;
 }
 
 article h2 {
@@ -81,12 +82,11 @@ article:first-of-type h2::after, article:nth-of-type(2) h2::after {
     text-transform: uppercase;
 }
 
-article:first-of-type h2:hover, article:nth-of-type(2) h2:hover {
-    color: blue;
+article:first-of-type h2:hover, article:nth-of-type(2) h2:hover, article:first-of-type h2:hover::after, article:nth-of-type(2) h2:hover::after {
+    color: deepskyblue;
     text-decoration: underline;
     /* text-transform: uppercase; */
 }
-
 
 .article-meta {
     color: rgb(134, 142, 150);
@@ -100,6 +100,35 @@ article img {
     /* border: 5px double black; */
 }
 
+article p {
+    position: relative;
+    /* padding-bottom: 10px; */
+}
+
+article p.annotation::first-letter {
+    color: blue;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+article p.link {
+    color: blue;
+}
+
+article p.link:hover::after {
+    content: ' . . ?';
+    font-weight: bolder;
+}
+
+/* article p::after {
+    content: ' [читать далее]';
+    color: blue;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 1px;
+} */
+
 footer {
     padding-top: 20px;
     padding-bottom: 60px;
@@ -108,7 +137,7 @@ footer {
 }
 
 footer .links > a {
-    color: lightsteelblue;
+    color: lightslategrey;
     padding: 0 25px;
     font-size: 13px;
     font-weight: 600;
@@ -119,5 +148,5 @@ footer .links > a {
 
 .copyright {
     color: lightslategrey;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
