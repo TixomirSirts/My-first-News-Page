@@ -20,7 +20,6 @@
     + [Yellowstote NP photo](https://unsplash.com/photos/6ug36TKGGho) by [Trevor Vannoy](https://unsplash.com/@tvannoy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/collections/L-jUmQ5nlEE/my-first-collection/c63fced57f618a29f5142f41dbbaffc0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)  
     + [Hokkaido photo](https://unsplash.com/photos/RivtzPBt58o) by [Marek Okon](https://unsplash.com/@marekokon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/hokkaido?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-  
   + [htmlbook.ru](http://htmlbook.ru/)
   + [developer.mozilla.org](https://developer.mozilla.org/en-US/)
   + [wikipedia.org](https://ru.wikipedia.org/)
